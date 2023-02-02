@@ -1,0 +1,67 @@
+.font{
+  font-family: 'Cairo', sans-serif;
+}
+.nav-style{
+  background-color: #b45b35!important
+}
+.nav-form{
+  width: 100%;
+  border-radius:20%
+}
+.card-img{
+  width: 100%;
+  height: 300px;
+}
+.card{
+  position: relative;
+}
+.card-info{
+  position: absolute;
+  left:0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,.6);
+  color: #aaa;
+  opacity: 0;
+  visibility: hidden;
+  transition: .3s all ease;
+}
+.card:hover .card-info{
+  opacity: 1;
+  visibility: visible;
+}
+.card-info-desc{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width:90%;
+  text-align: center;
+  transform: translate(-50%,-50%);
+}
+.card-details{
+  height: calc(100vh - 90px);
+  background-color: #f6f6f6;
+}
+.film-details h4{
+  color: #aaa;
+}
+.film-history{
+  color:#aaa;
+  padding: 20px 10px;
+}
+.card-details .btn{
+  width: 150px;
+  background-color: #b45b35;
+  outline-color: #b45b35;
+  border: 0;
+}
+.btn-group{
+    width: 350px;
+  margin: auto
+  ;
+}
+.details-img{
+  width: 200px;
+  height: 200px;
+}
